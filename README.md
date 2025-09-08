@@ -98,6 +98,9 @@ hailomz compile yolov11n
 --performance
 
 ## **Code**
+docker rm -f firedetectionappcontainer \
+docker build -t firedetectionapp .
+docker run -d --name firedetectionappcontainer -p 8000:8000 firedetectionapp
 
 First Page
 Pi Connection
