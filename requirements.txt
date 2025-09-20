@@ -1,6 +1,7 @@
 fastapi[standard]
 uvicorn[standard]
 jinja2
+aiortc
 paho-mqtt
 opencv-python
 degirum

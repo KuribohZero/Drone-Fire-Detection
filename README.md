@@ -127,6 +127,8 @@ The program works like this:
 - Operators confirms fire
 - Drone starts streaming the detected fire for both visual and thermal images
 
+python3 -m venv --system-site-packages venv
+source venv/bin/activate
 ## **Additional Resources**
 
 ## **References**
